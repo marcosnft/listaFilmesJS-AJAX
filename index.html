@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <style>
+        .box {
+            width:200px;
+            height: 200px;
+            background-color: red;
+            color:white;
+            margin-left: 0;
+        }
+
+        .animEsquerda {
+            transition: 1s;
+            margin-left:100px;
+        }
+
+        .conteudo{
+            font-size: 13px;
+            
+        }
+
+        .conteudo p{
+            height:0px;
+            overflow: hidden;
+            transition: 1s;
+        }
+
+        .conteudo span{
+            color:blue;
+            font-size: 10px;
+            cursor: pointer;
+        }
+
+        .mostrar{
+            height:200px !important;
+        }
+    </style>
+    <div class="box">
+    <p>Olá mundos 1</p>
+    <p>Olá mundos 2</p>
+    <p>Olá mundos 3</p>
+    <p>Olá mundos 4</p>
+    </div>
+    <div class="conteudo">
+        <h2>Título do conteúdo <span>Ver mais</span></h2>
+        <p>Aqui vai o conteúdo Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Amet aperiam omnis molestiae ea provident vero nemo, a obcaecati dolor, 
+            suscipit cumque! Magnam est doloremque eius dolorem nobis, quo alias adipisci.</p>
+
+
+    </div>
+    <!-- /.conteudo -->
+</body>
+<script src="script.js"></script> 
+</html> 
